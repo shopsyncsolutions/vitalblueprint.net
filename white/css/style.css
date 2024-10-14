@@ -1,0 +1,184 @@
+body {
+    background-color: #0B0B0B !important;
+}
+
+.container-fluid {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    /* Garante que o conteúdo ocupe toda a tela */
+}
+
+#conteudo_depois {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo_antes {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo_antes h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: #C4AB6A;
+    padding: 0px 30px 10px 30px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #E0E3E4 !important;
+}
+
+.logos img{
+    height: 130px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+.people-watching {
+    font-size: 16px;
+    color: #E0E3E4;
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+}
+
+.counter {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E0E3E4;
+}
+
+.table-price {
+    padding: 30px;
+    text-align: left !important;
+}
+
+.table-price .icon-secondary {
+    padding: 0px 10px 0px 0px;
+    color: #C4AB6A;
+    font-size: 1.8rem;
+}
+
+.table-price .card-body{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.table-price img{
+    width: 250px;
+}
+
+ .destaque_bottles {
+     width: 350px !important;
+ }
+
+.btn-buy{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #d79c02;
+    border: 1px solid #bd8a03;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: Sofia Sans Extra Condensed, sans-serif;
+    font-weight: 600;
+    line-height: 90%;
+    box-shadow: -2px 2px #644801;
+}
+
+.destaque .card{
+    background-color: #C4AB6A !important;
+}
+.destaque p, .destaque .icon-secondary{
+    color: #fff;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.destaque-itens{
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #E0E3E4;
+    padding: 15px;
+}
+.footer-text{
+    font-size: 13px !important;
+}
+
+
+.bg-logos{
+    background-color: #C4AB6A;
+    padding: 20px;
+}
+.bg-logos h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: #E0E3E4 !important;
+}
+
+
+/* Responsivo */
+@media (max-width: 992px) {
+    .conteudo_antes h3 {
+        font-size: 1.5rem;
+    }
+
+    .logos {
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo_antes h3 {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .logos img {
+            height: 150px;
+        }
+
+         .destaque_bottles {
+             width: 200px !important;
+         }
+
+    #buy .col-md-6:nth-child(1) {
+        order: 2;
+    }
+
+    #buy .col-md-6:nth-child(2) {
+        order: 1;
+    }
+
+    #buy .col-md-6:nth-child(3) {
+        order: 3;
+    }
+
+    .bg-logos {
+        height: 70vh;
+        margin: 30px 0px 30px 0px;
+    }
+    .bg-logos h3{
+        font-size: 1.5rem;
+    }
+          
+    .pricing-card{
+        padding: 10px 0px 10px 0px;
+    }
+}
